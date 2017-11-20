@@ -1,5 +1,5 @@
 (function() {
-    function initContoller() {
+    function initController() {
         var vm = this;
 
     }

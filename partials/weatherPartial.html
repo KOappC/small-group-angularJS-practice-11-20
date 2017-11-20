@@ -1,0 +1,5 @@
+<input type="text" ng-model="$ctrl.city" placeholder="city"> <!-- city name -->
+<input type="text" ng-model="$ctrl.state" placeholder="state"> <!-- state name -->
+<button type="button" ng-click="$ctrl.locationSearch($ctrl.city, $ctrl.state)">Search</button>
+<p>The current temperature is: {{ $ctrl.currentTemp }}F</p>
+<p>The current wind speed is: {{ $ctrl.windSpeed }}mph</p>

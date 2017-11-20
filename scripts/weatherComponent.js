@@ -1,6 +1,6 @@
 (function() {
     var weatherComponent = {
-        controller: "initController",
+        controller: "weatherController",
         templateUrl: "./partials/weatherPartial.html"
     };
 

@@ -9,12 +9,12 @@
 
                 })
                 .when("/weather", {
-                    template: `<prime-component></prime-component>`,
-                    controller: "initController"
+                    template: `<weather-component></weather-component>`,
+                    controller: "weatherController"
 
                 })
                 .when("/prime", {
-                    template: `<weather-component></weather-component>`,
+                    template: `<prime-component></prime-component>`,
                     controller: "initController"
 
                 })

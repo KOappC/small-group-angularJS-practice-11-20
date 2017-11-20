@@ -1,7 +1,6 @@
 (function() {
     function initController() {
         var vm = this;
-
     }
 
 

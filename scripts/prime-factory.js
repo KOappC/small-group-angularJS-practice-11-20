@@ -12,7 +12,7 @@
                     num = num / i;
                 }
             }
-            return primeData;
+            return primeData
         }
     }
 
